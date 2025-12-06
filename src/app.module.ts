@@ -12,12 +12,8 @@ import { AdminModule } from "./admin/admin.module";
 
 @Module({
   imports: [
-    ConfigModule.forRoot({
-      isGlobal: true,
-    }),
-    MongooseModule.forRoot(
-      process.env.MONGODB_URI || "mongodb://localhost:27017/noel",
-    ),
+    ConfigModule.forRoot({ isGlobal: true }),
+    MongooseModule.forRoot(process.env.MONGODB_URI),
     MembersModule,
     TasksModule,
     ResultsModule,

@@ -27,7 +27,7 @@ export class MembersService {
     return this.memberModel.findById(id).exec();
   }
 
-  async create(uuid: string, name: string): Promise<MemberDocument> {
+  async create(uuid: string, name: string, IsAdmin = false): Promise<MemberDocument> {
     const existingMember = await this.findByUUID(uuid);
     if (existingMember) {
       throw new ConflictException("Member with this UUID already exists");
@@ -37,7 +37,7 @@ export class MembersService {
       UUID: uuid,
       Name: name,
       Status: MemberStatus.PENDING,
-      IsAdmin: false,
+      IsAdmin,
     });
 
     return member.save();
@@ -109,8 +109,8 @@ export class MembersService {
   }
 
   async getAllMembers(): Promise<MemberDocument[]> {
-    return this.memberModel.find().exec();
-  }
+    return this.memberModel.find({ IsAdmin: false }).exec();
+  } 
 
   async updateStatus(
     memberId: string,

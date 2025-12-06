@@ -7,6 +7,7 @@ import { join } from 'path';
 interface Member {
   id: string;
   name: string;
+  IsAdmin: boolean
 }
 
 interface MembersData {
@@ -39,7 +40,7 @@ async function importMembers() {
       
       // Check if member already exists (by name, though UUID is the unique field)
       // We'll try to create and catch ConflictException if UUID already exists
-      await membersService.create(uuid, name);
+      await membersService.create(uuid, name, member.IsAdmin);
       console.log(`✅ Created: ${name} (UUID: ${uuid})`);
       successCount++;
     } catch (error: any) {
