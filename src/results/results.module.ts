@@ -5,12 +5,14 @@ import { ResultsService } from "./results.service";
 import { Result, ResultSchema } from "./schemas/result.schema";
 import { RedisModule } from "../redis/redis.module";
 import { MembersModule } from "../members/members.module";
+import { SystemModule } from "../system/system.module";
 
 @Module({
   imports: [
     MongooseModule.forFeature([{ name: Result.name, schema: ResultSchema }]),
     RedisModule,
     MembersModule,
+    SystemModule,
   ],
   controllers: [ResultsController],
   providers: [ResultsService],

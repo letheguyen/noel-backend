@@ -9,6 +9,7 @@ import { ResultsModule } from "./results/results.module";
 import { AuthModule } from "./auth/auth.module";
 import { RedisModule } from "./redis/redis.module";
 import { AdminModule } from "./admin/admin.module";
+import { SystemModule } from "./system/system.module";
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { AdminModule } from "./admin/admin.module";
     AuthModule,
     RedisModule,
     AdminModule,
+    SystemModule,
   ],
   controllers: [AppController],
   providers: [AppService],

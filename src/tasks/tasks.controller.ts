@@ -11,6 +11,7 @@ import { TasksService } from "./tasks.service";
 import { TaskType } from "./schemas/task.schema";
 import { JwtAuthGuard } from "../auth/jwt-auth.guard";
 import { AdminGuard } from "../auth/admin.guard";
+import { SystemStatusGuard } from "../system/system-status.guard";
 import { MembersService } from "../members/members.service";
 import { CardType } from "../members/schemas/member.schema";
 import { IsEnum } from "class-validator";
@@ -28,6 +29,7 @@ export class TasksController {
   ) {}
 
   @Get()
+  @UseGuards(SystemStatusGuard)
   async getOpenTasks() {
     const tasks = await this.tasksService.getOpenTasks();
     return tasks.map((task) => ({
@@ -51,6 +53,7 @@ export class TasksController {
   }
 
   @Get(":id")
+  @UseGuards(SystemStatusGuard)
   async getTaskDetails(@Param("id") id: string) {
     const task = await this.tasksService.findById(id);
     if (!task) {
@@ -65,7 +68,7 @@ export class TasksController {
   }
 
   @Post("random")
-  @UseGuards(JwtAuthGuard)
+  @UseGuards(JwtAuthGuard, SystemStatusGuard)
   async randomTask(@Body() dto: RandomTaskDto, @Request() req) {
     const memberId = req.user.memberId;
     const task = await this.tasksService.randomTaskWithLock(

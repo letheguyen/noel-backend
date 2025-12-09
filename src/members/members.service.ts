@@ -124,4 +124,17 @@ export class MembersService {
     member.Status = status;
     return member.save();
   }
+
+  async updateCardStatus(
+    memberId: string,
+    cardStatus: boolean,
+  ): Promise<MemberDocument> {
+    const member = await this.findById(memberId);
+    if (!member) {
+      throw new NotFoundException("Member not found");
+    }
+
+    member.CardStatus = cardStatus;
+    return member.save();
+  }
 }

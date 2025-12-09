@@ -52,6 +52,9 @@ export class Member {
 
   @Prop()
   activeSessionToken?: string;
+
+  @Prop({ default: false })
+  CardStatus: boolean;
 }
 
 export const MemberSchema = SchemaFactory.createForClass(Member);

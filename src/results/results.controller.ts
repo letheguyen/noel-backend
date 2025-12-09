@@ -9,6 +9,7 @@ import {
 } from "@nestjs/common";
 import { ResultsService } from "./results.service";
 import { JwtAuthGuard } from "../auth/jwt-auth.guard";
+import { SystemStatusGuard } from "../system/system-status.guard";
 import { IsNumber, Min, Max } from "class-validator";
 import { MembersService } from "../members/members.service";
 
@@ -27,7 +28,7 @@ export class ResultsController {
   ) {}
 
   @Get(":id")
-  @UseGuards(JwtAuthGuard)
+  @UseGuards(JwtAuthGuard, SystemStatusGuard)
   async getResultDetails(@Param("id") id: string) {
     const result = await this.resultsService.findById(id);
     if (!result) {
@@ -42,7 +43,7 @@ export class ResultsController {
   }
 
   @Post("random")
-  @UseGuards(JwtAuthGuard)
+  @UseGuards(JwtAuthGuard, SystemStatusGuard)
   async randomResult(@Body() dto: RandomResultDto, @Request() req) {
     const memberId = req.user.memberId;
     const result = await this.resultsService.randomResultWithLock(
