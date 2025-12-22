@@ -1,204 +1,121 @@
 {
   "tasks": [
     {
-      "descriptions": "Tỏ tình giả lập với một anh/chị trong phòng (có quay video).",
+      "descriptions": "Bạn từng crush đồng nghiệp chưa? Hiện tại có đang làm cùng người đó không?",
       "TaskType": "RED",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Hát một đoạn 30 giây thật lớn trước mọi người.",
+      "descriptions": "Nếu được chọn 1 người trong DIV làm người yêu, bạn chọn ai và tại sao?",
       "TaskType": "RED",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Nhảy một điệu nhảy lầy lội giữa sân khấu.",
+      "descriptions": "Đọc to đoạn thơ “tẩm đá” trước toàn DIV: Cá chép là tàu ngầm. Chuồn chuồn là máy bay. Ếch chính là tên lửa. Nhân loại vì kiếm tiền mà hi sinh sức khoẻ. Vì chữa bệnh mà hi sinh tiền bạc. Vì lo lắng cho tương lai mà không biết sống cho hiện tại...",
       "TaskType": "RED",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Gọi điện facetime cho 1 đồng nghiệp và khen họ 5 câu liên tục.",
+      "descriptions": "Kể 1 khoảnh khắc bạn từng làm sai / xấu hổ nhất khi đi làm",
       "TaskType": "RED",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Đứng im 10 giây và để mọi người tạo dáng xung quanh bạn.",
+      "descriptions": "Chụp ảnh selfie với 1 đồng nghiệp khác giới, comment vào post Noel kèm lời chúc",
       "TaskType": "RED",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Diễn lại một cảnh phim tình cảm trước khán giả.",
+      "descriptions": "Nếu bạn là gay, bạn sẽ chọn ai trong DIV để yêu?",
+      "TaskType": "RED",
+      "Status": "OPEN"
+    },
+     {
+      "descriptions": "Nếu bạn là gay, bạn sẽ chọn ai trong DIV để yêu?",
       "TaskType": "RED",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Thực hiện 1 thử thách thể thao khó (plank 1 phút, squat 50 cái…).",
+      "descriptions": "BTC chỉ định 1 người bất kỳ sau đó bạn nói 3 điểm bạn thấy dễ thương / đáng quý/ thích... ở người đó",
       "TaskType": "RED",
       "Status": "OPEN"
     },
+    
+    
     {
-      "descriptions": "Kể một bí mật vui nhộn về bản thân trước mọi người.",
-      "TaskType": "RED",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Giả giọng 1 nhân vật hoạt hình trong 30 giây.",
-      "TaskType": "RED",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Hát song ca với một người bất kỳ do BTC chọn.",
-      "TaskType": "RED",
-      "Status": "OPEN"
-    },
-
-    {
-      "descriptions": "Chụp ảnh chung với một đồng nghiệp khác giới.",
+      "descriptions": "BTC chỉ định 1 người bất kỳ sau đó bạn nói 3 điểm bạn thấy dễ thương / đáng quý/ thích... ở người đó",
       "TaskType": "BLUE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Bắt tay 10 người trong 30 giây.",
+      "descriptions": "Nói ra lời yêu thương với 1 đồng nghiệp khác giới",
       "TaskType": "BLUE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Khen 3 điểm tốt của người bên cạnh.",
+      "descriptions": "Kể tên 1 người đã giúp bạn nhiều trong công việc và gửi lời chúc Giáng Sinh tới người đó",
       "TaskType": "BLUE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Ghép nhóm 3 người và tạo dáng theo yêu cầu.",
+      "descriptions": "Gửi lời chúc Giáng Sinh đến 1 bạn khác giới trong DIV mà bạn quý mến",
       "TaskType": "BLUE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Chụp ảnh với 1 người bạn chưa từng nói chuyện trước đây.",
+      "descriptions": "Chọn 1 người trong DIV bạn muốn làm chung dự án nhất và nói lý do",
       "TaskType": "BLUE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Thực hiện động tác thể dục vui trong 15 giây.",
+      "descriptions": "Chụp ảnh selfie với 1 đồng nghiệp khác giới, comment vào post Noel kèm lời chúc",
       "TaskType": "BLUE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Giới thiệu bản thân theo phong cách rap.",
+      "descriptions": "Chụp ảnh selfie với 1 đồng nghiệp khác giới, comment vào post Noel kèm lời chúc",
       "TaskType": "BLUE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Bốc 1 đồng nghiệp để nhảy freestyle 10 giây cùng bạn.",
-      "TaskType": "BLUE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Giả tiếng động vật bất kỳ trong 10 giây.",
-      "TaskType": "BLUE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Đọc 1 câu thơ hoặc câu nói hay về tình bạn.",
+      "descriptions": "Gửi lời chúc Giáng Sinh đến 1 bạn khác giới trong DIV mà bạn quý mến",
       "TaskType": "BLUE",
       "Status": "OPEN"
     },
 
+
     {
-      "descriptions": "Bắt chuyện với người ngồi cạnh 1 phút.",
+      "descriptions": "Tạo dáng trái tim với người ngồi cạnh",
       "TaskType": "WHITE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Chụp ảnh selfie theo chủ đề vui vẻ.",
+      "descriptions": "Kể tên 3 điều bạn học được trong năm qua",
       "TaskType": "WHITE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Đập tay high-five với 3 người gần nhất.",
+      "descriptions": "Kể tên 3 điều bạn biết ơn trong năm qua",
       "TaskType": "WHITE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Cười thật tươi và pose dáng theo yêu cầu của BTC.",
+      "descriptions": "Nói 1 điều bạn tự hào về bản thân trong năm nay",
       "TaskType": "WHITE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Giới thiệu tên và sở thích của bạn cho người lạ gần nhất.",
+      "descriptions": "Chụp ảnh nhóm 3 người ngẫu nhiên và post ảnh vào comment trên bài sự kiện noel của DIV",
       "TaskType": "WHITE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Chọn 1 người để chúc họ một câu bất kỳ.",
+      "descriptions": "BTC chỉ định 1 người bất kỳ sau đó bạn nói 1 điểm bạn thấy dễ thương / đáng quý/ thích... ở người đó",
       "TaskType": "WHITE",
       "Status": "OPEN"
     },
     {
-      "descriptions": "Tạo dáng trái tim cùng 1 đồng nghiệp.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Cùng 1 người tạo dáng nghiêm túc nhất có thể.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Tạo dáng vui nhộn trong ảnh nhóm.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Nháy mắt vào camera khi được chụp.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Giơ tay chào thật nhiệt tình.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Cười thật lớn trong 3 giây.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Chụp ảnh tay tạo ký hiệu victory.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Tạo dáng nghiêng đầu cute.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Bắt tay người bên phải bạn.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Tạo dáng siêu anh hùng trong 3 giây.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Giơ ngón cái biểu tượng 'tuyệt vời'.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Gửi lời chúc may mắn cho 1 đồng nghiệp bất kỳ.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Cười toe toét khi người khác chụp bạn.",
-      "TaskType": "WHITE",
-      "Status": "OPEN"
-    },
-    {
-      "descriptions": "Tạo dáng chụp kiểu dễ thương nhất của bạn.",
+      "descriptions": "Tạo dáng trái tim với người ngồi cạnh và chụp ảnh lại và post ảnh vào comment trên bài sự kiện noel của DIV",
       "TaskType": "WHITE",
       "Status": "OPEN"
     }

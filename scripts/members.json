@@ -1,6 +1,6 @@
 {
   "members": [
-    { "IsAdmin": false, "id": "4821", "name": "Nguyễn Kim Giang" },
+    { "IsAdmin": false, "id": "8888", "name": "Nguyễn Kim Giang" },
     { "IsAdmin": false, "id": "9372", "name": "Nguyễn Thị Hồng Nhung" },
     { "IsAdmin": false, "id": "1048", "name": "Nguyễn Văn Trường" },
     { "IsAdmin": false, "id": "5829", "name": "Đinh Thị Nhinh" },
@@ -35,6 +35,8 @@
     { "IsAdmin": false, "id": "5407", "name": "Hoàng Anh Dũng" },
     { "IsAdmin": false, "id": "6991", "name": "Mai Thị Thúy Yên" },
     { "IsAdmin": false, "id": "8204", "name": "Nguyễn Thị Vân Anh" },
+    { "IsAdmin": false, "id": "8386", "name": "Quỳnh (onside)" },
+    { "IsAdmin": false, "id": "2283", "name": "Điệu (onside)" },
     { "IsAdmin": true, "id": "96962025", "name": "ADMIN" }
   ]
 }
