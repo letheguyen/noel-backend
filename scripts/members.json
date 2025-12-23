@@ -35,6 +35,7 @@
     { "IsAdmin": false, "id": "5407", "name": "Hoàng Anh Dũng" },
     { "IsAdmin": false, "id": "6991", "name": "Mai Thị Thúy Yên" },
     { "IsAdmin": false, "id": "8204", "name": "Nguyễn Thị Vân Anh" },
+    { "IsAdmin": false, "id": "3000", "name": "Đàm Cúc" },
     { "IsAdmin": false, "id": "8386", "name": "Quỳnh (onside)" },
     { "IsAdmin": false, "id": "2283", "name": "Điệu (onside)" },
     { "IsAdmin": true, "id": "96962025", "name": "ADMIN" }
